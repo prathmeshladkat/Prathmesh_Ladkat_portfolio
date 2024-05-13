@@ -32,14 +32,14 @@ export const SpecificProject: React.FC<specificProject> = ({
     if (isInView) {
       mainControls.start("visible");
     }
-  }, [isInView]);
+  }, [isInView, mainControls]);
 
   return (
     <div>
       <div
-        className={`h-full lg:h-[650px]  flex flex-col-reverse overflow-hidden ${
+        className={`flex h-full  flex-col-reverse overflow-hidden lg:h-[650px] ${
           isReverse ? "lg:flex-row-reverse" : "lg:flex-row"
-        } justify-between gap-4 items-center py-4 my-4  shadow-md px-5`}
+        } my-4 items-center justify-between gap-4 px-5  py-4 shadow-md`}
       >
         <motion.div
           ref={ref}
@@ -53,12 +53,12 @@ export const SpecificProject: React.FC<specificProject> = ({
           className="w-full lg:w-1/2"
         >
           <h3
-            className={`text-[32px] lg:text-[45px] font-bold my-2 ${isReverse ? "ml-10" : ""}`}
+            className={`my-2 text-[32px] font-bold lg:text-[45px] ${isReverse ? "ml-10" : ""}`}
           >
             {projectTitle}
           </h3>
           <p
-            className={`text-gray-600 text-lg lg:text-xl py-4 my-4  w-[90%] ${isReverse ? "ml-10" : ""}`}
+            className={`my-4 w-[90%] py-4 text-lg text-gray-600  lg:text-xl ${isReverse ? "ml-10" : ""}`}
           >
             {projectDescription}
           </p>
@@ -70,12 +70,12 @@ export const SpecificProject: React.FC<specificProject> = ({
             className={`flex items-center gap-4 py-4 ${isReverse ? "ml-10" : ""}`}
           >
             <Link href={projectDemo} target="_blank">
-              <button className="bg-yellow-300 text-black px-10 sm:w-[180px] py-4 rounded-lg text-lg shadow-md">
+              <button className="rounded-lg bg-yellow-300 px-10 py-4 text-lg text-black shadow-md sm:w-[180px]">
                 Demo
               </button>
             </Link>
             <Link href={projectSource} target="_blank">
-              <button className="bg-yellow-300 text-black px-10 sm:w-[180px] py-4 rounded-lg text-lg shadow-md">
+              <button className="rounded-lg bg-yellow-300 px-10 py-4 text-lg text-black shadow-md sm:w-[180px]">
                 Source
               </button>
             </Link>
@@ -83,7 +83,7 @@ export const SpecificProject: React.FC<specificProject> = ({
         </motion.div>
 
         <motion.div
-          className="w-full lg:w-1/2 py-4 my-4 relative z-10"
+          className="relative z-10 my-4 w-full py-4 lg:w-1/2"
           ref={ref}
           variants={{
             hidden: { opacity: 0, y: 76 },
@@ -98,7 +98,7 @@ export const SpecificProject: React.FC<specificProject> = ({
             height={600}
             width={600}
             alt="project-1"
-            className="w-full h-full"
+            className="h-full w-full"
           />
 
           <Image
