@@ -32,7 +32,7 @@ export const projects = [
     projectSource: "https://github.com/prathmeshladkat/Brainwave",
     projectDemo: "https://brainwave-ten-rho.vercel.app/",
     projectDesktopPreview: "/images/rrr.png",
-    projectMobilePreview: "/images/project-3-mobile.png",
+    projectMobilePreview: "/images/brainwave.png",
     isReverse: false,
   },
 ];
