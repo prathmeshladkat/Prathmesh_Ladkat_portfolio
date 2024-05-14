@@ -106,7 +106,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
         </div>
         <div></div>
         <div>
-          <span className="job-title block bg-gradient-to-tr from-yellow-500 via-yellow-200 to-yellow-500 bg-clip-text text-2xl font-bold uppercase tracking-[.2em] text-transparent ml-20 opacity-0 md:text-4xl ">
+          <span className="job-title block bg-gradient-to-tr from-yellow-500 via-yellow-200 to-yellow-500 hidden md:block bg-clip-text text-2xl font-bold uppercase tracking-[.2em] text-transparent ml-20 opacity-0 md:text-4xl ">
             <MdArrowOutward className="text-yellow-500" />
             Tickle it!
           </span>
