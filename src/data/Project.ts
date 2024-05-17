@@ -1,11 +1,11 @@
 export const projects = [
   {
     id: 1,
-    projectTitle: "Board-Wex",
+    projectTitle: "ArtBoard",
     projectDescription:
       "Developed collaborative whiteboard app using Next.js and Convex DB for real-time team collaboration. Integrated Clerk for secure authentication. Implemented note management for enhanced productivity.",
-    projectSource: "https://github.com/prathmeshladkat/",
-    projectDemo: "https://board-wex.vercel.app/",
+    projectSource: "https://github.com/prathmeshladkat/ArtBoard",
+    projectDemo: "https://art-board.vercel.app/",
     projectDesktopPreview: "/images/nnn.png",
     projectMobilePreview: "/images/Project-1-mobile.png",
     isReverse: false,
