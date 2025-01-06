@@ -3,11 +3,11 @@ export const projects = [
     id: 1,
     projectTitle: "CineWise",
     projectDescription:
-      "Developed collaborative whiteboard app using Next.js and Convex DB for real-time team collaboration. Integrated Clerk for secure authentication. Implemented note management for enhanced productivity.",
+      "Developed a Netflix-inspired frontend application using Next.js for a seamless user experience. Integrated secure user authentication with Clerk to enable signup and login functionality. Leveraged the OpenAI API to implement advanced search capabilities, allowing users to discover movies effortlessly. Designed an intuitive interface to display the latest movie posters along with their descriptions, enhancing user engagement.",
     projectSource: "https://github.com/prathmeshladkat/cinewise",
     projectDemo: "https://cinewise.vercel.app/",
     projectDesktopPreview: "/images/cinewise.png",
-    projectMobilePreview: "/images/artboard-mobile.png",
+    projectMobilePreview: "/images/cinewise-mobile.png",
     isReverse: false,
     flexFlow: "flex-row",
   },
@@ -20,7 +20,7 @@ export const projects = [
     projectDemo: "https://art-board.vercel.app/",
     projectDesktopPreview: "/images/artboard.png",
     projectMobilePreview: "/images/artboard-mobile.png",
-    isReverse: false,
+    isReverse: true,
     flexFlow: "flex-row",
   },
   {
@@ -33,7 +33,7 @@ export const projects = [
       "https://pricewise-jcn6sk8zb-prathmesh-ladkats-projects.vercel.app/",
     projectDesktopPreview: "/images/Pricewise.png",
     projectMobilePreview: "/images/Project-2-mobile.png",
-    isReverse: true,
+    isReverse: false,
     flexFlow: "flex-row",
   },
   {
@@ -45,6 +45,6 @@ export const projects = [
     projectDemo: "https://brainwave-ten-rho.vercel.app/",
     projectDesktopPreview: "/images/rrr.png",
     projectMobilePreview: "/images/brainwave.png",
-    isReverse: false,
+    isReverse: true,
   },
 ];
