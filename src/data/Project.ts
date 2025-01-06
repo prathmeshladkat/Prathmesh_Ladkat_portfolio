@@ -1,6 +1,18 @@
 export const projects = [
   {
     id: 1,
+    projectTitle: "CineWise",
+    projectDescription:
+      "Developed collaborative whiteboard app using Next.js and Convex DB for real-time team collaboration. Integrated Clerk for secure authentication. Implemented note management for enhanced productivity.",
+    projectSource: "https://github.com/prathmeshladkat/cinewise",
+    projectDemo: "https://cinewise.vercel.app/",
+    projectDesktopPreview: "/images/cinewise.png",
+    projectMobilePreview: "/images/artboard-mobile.png",
+    isReverse: false,
+    flexFlow: "flex-row",
+  },
+  {
+    id: 2,
     projectTitle: "ArtBoard",
     projectDescription:
       "Developed collaborative whiteboard app using Next.js and Convex DB for real-time team collaboration. Integrated Clerk for secure authentication. Implemented note management for enhanced productivity.",
@@ -12,7 +24,7 @@ export const projects = [
     flexFlow: "flex-row",
   },
   {
-    id: 2,
+    id: 3,
     projectTitle: "PriceWise",
     projectDescription:
       "Built Web-Scrapper site with Bright Data tool for price tracking. Added features like Product Recommendation and Price Notify by mail. Managed database integration for seamless functionality.",
@@ -25,7 +37,7 @@ export const projects = [
     flexFlow: "flex-row",
   },
   {
-    id: 3,
+    id: 4,
     projectTitle: "Brainwave",
     projectDescription:
       "Crafted dynamic website with engaging UI/UX: interactive elements, cursor-reactive shapes. Ensured full device accessibility with responsive design and Bentobox UI/UX approach. Implemented animated Hamburger menu and parallax effects for enhanced navigation.",
